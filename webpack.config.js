@@ -14,7 +14,7 @@ module.exports = {
         // 出力ファイルのディレクトリ名
         path: path.join(__dirname, 'dist'),
         // 出力ファイル名
-        filename: "main.js",
+        filename: '[name].js',
     },
     module: {
         rules: [
